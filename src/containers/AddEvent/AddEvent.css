@@ -1,0 +1,39 @@
+.add-event-form{
+    text-align: center;
+    border: 2px solid white;
+    width: 50%;
+    margin: 50px auto 0;
+    height: 100%;
+    padding: 25px 0;
+    border-radius: 5px;
+}
+.add-event-form h2{
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+.add-event-form input{
+    display: block;
+    margin: 10px auto;
+    background: none;
+    border: 1px solid white;
+    padding: 5px;
+    color: white;
+    border-radius: 5px;
+}
+
+.add-event-form input::placeholder{
+    color: white;
+}
+
+.add-event-form button{
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    color: white;
+    background: none;
+    font-weight: bold;
+    border: 1px solid white;
+    padding: 5px;
+    margin-top: 20px;
+}
