@@ -1,0 +1,41 @@
+.event-list-item{
+    padding: 15px;
+    border: 1px solid white;
+    position: relative;
+    margin-top: 10px;
+}
+
+.event-list-item h3{
+    border-bottom: 2px solid white;
+    padding: 10px;
+    margin: 0;
+}
+
+.event-list-item p{
+    padding: 10px;
+    margin: 0;
+}
+
+.event-list-item span{
+    position: absolute;
+    bottom: 3px;
+    right: 3px;
+}
+
+.event-list-item button{
+    background: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    padding: 3px 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.event-list-item svg:hover{
+    color: red;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
